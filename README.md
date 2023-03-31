@@ -1,14 +1,12 @@
 # Delicious Company
-Esse repositorio contém os arquivos e scripts utilizados para construir o [Delicious Company Dashdoard](https://leonardosantana-delicious-company.streamlit.app/).
 
 ## Contexto do Problema de Negócio
 
-A Delicious Company nos contratou como Cientista de Dados e a principal tarefa nesse momento é ajudar o CEO Kleiton Guerra
+A Delicious Company  é uma marketplace de restaurantes. Ou seja, seu core business é facilitar o encontro e negociações de clientes e restaurantes. Os restaurantes fazem o cadastro dentro da plataforma da Delicious, que disponibiliza informações como endereço, tipo de culinária servida, se possui reservas, se faz entregas e também uma nota de avaliação dos serviços e produtos do restaurante, dentre outras informações.
+
+A empresa nos contratou como Cientista de Dados e a principal tarefa nesse momento é ajudar o CEO Kleiton Guerra
 a identificar pontos chaves da empresa, respondendo às perguntas que ele fizer utilizando dados!
 
-A empresa é uma marketplace de restaurantes. Ou seja, seu core business é facilitar o encontro e negociações de clientes e restaurantes. Os
-restaurantes fazem o cadastro dentro da plataforma da Delicious, que disponibiliza informações como endereço, tipo de culinária servida, se possui reservas, se faz
-entregas e também uma nota de avaliação dos serviços e produtos do restaurante, dentre outras informações.
 
 ## O Desafio
 O CEO Guerra também foi recém contratado e precisa entender melhor o negócio para conseguir tomar as melhores decisões estratégicas e alavancar ainda mais a
@@ -106,12 +104,42 @@ dessas informações o mais rápido possível, uma vez que ele também é novo n
 empresa e irá utilizá-las para entender melhor a empresa para conseguir
 tomar decisões mais assertivas.
 
-## Resultados
-
-Para responder as perguntas feitas pelo CEO utilizamos os dados que a empresa possui, como pode ser visto no [notebook](https://github.com/leoalvessantana/delicious_company/blob/main/analise_nos_dados.ipynb). Em seguida criamos o [dashboard](https://leonardosantana-delicious-company.streamlit.app/) solicitado.
-
-## Dados
+## Premissas e dados fornecidos
+ 
 O conjunto de dados que representam o contexto está disponível na plataforma do
 Kaggle. O link para acesso aos dados :
-
 https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?resource=download&select=zomato.csv
+
+Antes de partimos para a estratégia de solução é importante ter conhecimento das [premissias](https://github.com/leoalvessantana/delicious_company/blob/main/dataset/informacoes_dados.txt) do negócio.
+
+
+## Estratégia da solução e resultados
+
+Para responder as perguntas feitas pelo CEO utilizamos os dados que a empresa possui, como pode ser visto no [notebook](https://github.com/leoalvessantana/delicious_company/blob/main/analise_nos_dados.ipynb). 
+
+Em seguida, o painel estratégico foi desenvolvido utilizando as métricas que refletem as principais visões do modelo de negócio da empresa:
+
+Geral:
+ - Alguns Números Importantes.
+ - A localização de cada restaurante.
+
+Países:
+ - Número de Cidades cadastradas.
+ - Número de Restaurantes Cadastrados.
+ - Número Médio de Avaliações.
+ - Pontuação média registrada.
+ - Preço Médio de uma Refeição para Dois.
+
+Cidades:
+ - Top 10 Cidades com Restaurantes com Nota Média Acima de 4.
+ - Top 10 Cidades com Restaurantes com Nota Média Abaixo de 2,5.
+ - Top 10 Cidades com os Mais Diferentes Tipos de Culinária.
+
+Culinaria:
+ - Top 10 melhores tipos de culinária.
+ - Top 10 piores tipos de culinária.
+ - Os 10 Melhores Tipos de culinária que têm o Maior Valor Médio de um Prato Para Duas Pessoas.
+ - Todos os restaurantes com a pontuação média mais alta (4,9/5,0).
+
+Como resultado temos o [dashboard](https://leonardosantana-delicious-company.streamlit.app/) solicitado, hospedado em um Cloud e disponivel para acesso em qualquer dispositivo conectado á internet.
+
