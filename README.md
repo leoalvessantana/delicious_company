@@ -107,7 +107,7 @@ empresa e irá utilizá-las para entender melhor a empresa para conseguir
 tomar decisões mais assertivas.
 
 
-Para responder as perguntas feitas do CEO utilizar os dados que a empresa possui, como pode ser visto no [notebook](https://github.com/leoalvessantana/delicious_company/blob/main/analise_nos_dados.ipynb). Em seguida criamos o [dashboard](https://leonardosantana-delicious-company.streamlit.app/) solicitado.
+Para responder as perguntas feitas pelo CEO utilizamos os dados que a empresa possui, como pode ser visto no [notebook](https://github.com/leoalvessantana/delicious_company/blob/main/analise_nos_dados.ipynb). Em seguida criamos o [dashboard](https://leonardosantana-delicious-company.streamlit.app/) solicitado.
 
 ## Dados
 O conjunto de dados que representam o contexto está disponível na plataforma do
