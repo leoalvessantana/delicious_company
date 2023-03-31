@@ -106,6 +106,7 @@ dessas informações o mais rápido possível, uma vez que ele também é novo n
 empresa e irá utilizá-las para entender melhor a empresa para conseguir
 tomar decisões mais assertivas.
 
+## Resultados
 
 Para responder as perguntas feitas pelo CEO utilizamos os dados que a empresa possui, como pode ser visto no [notebook](https://github.com/leoalvessantana/delicious_company/blob/main/analise_nos_dados.ipynb). Em seguida criamos o [dashboard](https://leonardosantana-delicious-company.streamlit.app/) solicitado.
 
