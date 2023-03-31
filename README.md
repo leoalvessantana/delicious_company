@@ -100,15 +100,14 @@ pessoas?
 13. Qual o tipo de culinária que possui mais restaurantes que aceitam pedidos
 online e fazem entregas?
 
-
-
 O CEO também pediu que fosse gerado um dashboard que permitisse que ele
 visualizasse as principais informações das perguntas que ele fez. O CEO precisa
 dessas informações o mais rápido possível, uma vez que ele também é novo na
-empresa e irá utilizá-las para entender melhor a empresa Fome Zero para conseguir
+empresa e irá utilizá-las para entender melhor a empresa para conseguir
 tomar decisões mais assertivas.
-Seu trabalho é utilizar os dados que a empresa Fome Zero possui e responder as
-perguntas feitas do CEO e criar o dashboard solicitado.
+
+
+Para responder as perguntas feitas do CEO utilizar os dados que a empresa possui, como pode ser visto no [notebook](https://github.com/leoalvessantana/delicious_company/blob/main/analise_nos_dados.ipynb). Em seguida criamos o [dashboard](https://leonardosantana-delicious-company.streamlit.app/) solicitado.
 
 ## Dados
 O conjunto de dados que representam o contexto está disponível na plataforma do
