@@ -117,7 +117,7 @@ Antes de partimos para a estratégia de solução é importante ter conhecimento
 
 Primeiro respondemos as perguntas feitas pelo CEO utilizamos os dados que a empresa possui, as perguntas respondidas estão no [notebook](https://github.com/leoalvessantana/delicious_company/blob/main/analise_nos_dados.ipynb). 
 
-Em seguida, para construir o dashboard, construimos um painel estratégico foi desenvolvido utilizando as métricas que refletem as principais visões do modelo de negócio da empresa:
+Em seguida, para construir o dashboard, construimos um painel estratégico que foi desenvolvido utilizando as métricas que refletem as principais visões do modelo de negócio da empresa:
 
 Geral:
  - Alguns Números Importantes.
