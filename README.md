@@ -1,4 +1,4 @@
-# Delicious Company
+# Delicious Company Project
 
 ## Contexto do Problema de Negócio
 
@@ -10,7 +10,7 @@ a identificar pontos chaves da empresa, respondendo às perguntas que ele fizer 
 
 ## O Desafio
 O CEO Guerra também foi recém contratado e precisa entender melhor o negócio para conseguir tomar as melhores decisões estratégicas e alavancar ainda mais a
-Fome Zero, e para isso, ele precisa que seja feita uma análise nos dados da empresa e que sejam gerados dashboards, a partir dessas análises, para responder
+ Delicious Company, e para isso, ele precisa que seja feita uma análise nos dados da empresa e que sejam gerados dashboards, a partir dessas análises, para responder
 às seguintes perguntas:
 
 Geral
@@ -115,9 +115,9 @@ Antes de partimos para a estratégia de solução é importante ter conhecimento
 
 ## Estratégia da solução e resultados
 
-Para responder as perguntas feitas pelo CEO utilizamos os dados que a empresa possui, como pode ser visto no [notebook](https://github.com/leoalvessantana/delicious_company/blob/main/analise_nos_dados.ipynb). 
+Primeiro respondemos as perguntas feitas pelo CEO utilizamos os dados que a empresa possui, as perguntas respondidas estão no [notebook](https://github.com/leoalvessantana/delicious_company/blob/main/analise_nos_dados.ipynb). 
 
-Em seguida, o painel estratégico foi desenvolvido utilizando as métricas que refletem as principais visões do modelo de negócio da empresa:
+Em seguida, para construir o dashboard, construimos um painel estratégico foi desenvolvido utilizando as métricas que refletem as principais visões do modelo de negócio da empresa:
 
 Geral:
  - Alguns Números Importantes.
