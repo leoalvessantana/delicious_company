@@ -1,17 +1,14 @@
 # Delicious Company Project
 
-## Contexto do Problema de Negócio
+## 1. Contexto do Problema de Negócio
 
 A Delicious Company  é uma marketplace de restaurantes. Ou seja, seu core business é facilitar o encontro e negociações de clientes e restaurantes. Os restaurantes fazem o cadastro dentro da plataforma da Delicious, que disponibiliza informações como endereço, tipo de culinária servida, se possui reservas, se faz entregas e também uma nota de avaliação dos serviços e produtos do restaurante, dentre outras informações.
 
-A empresa nos contratou como Cientista de Dados e a principal tarefa nesse momento é ajudar o CEO Kleiton Guerra
-a identificar pontos chaves da empresa, respondendo às perguntas que ele fizer utilizando dados!
+A empresa nos contratou como Cientista de Dados para ajudar o CEO da empresa  a identificar pontos chaves da empresa, respondendo às perguntas que ele fizer utilizando dados!
 
 
-## O Desafio
-O CEO Guerra também foi recém contratado e precisa entender melhor o negócio para conseguir tomar as melhores decisões estratégicas e alavancar ainda mais a
- Delicious Company, e para isso, ele precisa que seja feita uma análise nos dados da empresa e que sejam gerados dashboards, a partir dessas análises, para responder
-às seguintes perguntas:
+## 2. O Desafio
+O CEO Guerra também foi recém contratado e precisa entender melhor o negócio para conseguir tomar as melhores decisões estratégicas e alavancar ainda mais a Delicious Company, e para isso, ele precisa que seja feita uma análise nos dados da empresa e que sejam gerados dashboards, a partir dessas análises, para responder às seguintes perguntas:
 
 Geral
 1. Quantos restaurantes únicos estão registrados?
@@ -104,7 +101,7 @@ dessas informações o mais rápido possível, uma vez que ele também é novo n
 empresa e irá utilizá-las para entender melhor a empresa para conseguir
 tomar decisões mais assertivas.
 
-## Premissas e dados fornecidos
+## 3. Premissas e dados fornecidos
  
 O conjunto de dados que representam o contexto está disponível na plataforma do
 Kaggle. O link para acesso aos dados :
@@ -113,7 +110,7 @@ https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?
 Antes de partimos para a estratégia de solução é importante ter conhecimento das [premissias](https://github.com/leoalvessantana/delicious_company/blob/main/dataset/informacoes_dados.txt) do negócio.
 
 
-## Estratégia da solução e resultados
+## 4. Estratégia da solução e resultados
 
 Primeiro respondemos as perguntas feitas pelo CEO utilizamos os dados que a empresa possui, as perguntas respondidas estão no [notebook](https://github.com/leoalvessantana/delicious_company/blob/main/analise_nos_dados.ipynb). 
 
@@ -141,5 +138,7 @@ Culinaria:
  - Os 10 Melhores Tipos de culinária que têm o Maior Valor Médio de um Prato Para Duas Pessoas.
  - Todos os restaurantes com a pontuação média mais alta (4,9/5,0).
 
-Como resultado temos o [dashboard](https://leonardosantana-delicious-company.streamlit.app/) solicitado, hospedado em um Cloud e disponivel para acesso em qualquer dispositivo conectado á internet.
+O produto final do projeto é um Painel online, hospedado em um Cloud e disponível para acesso em qualquer dispositivo conectado à internet. O painel pode ser acessado através desse link: https://leonardosantana-delicious-company.streamlit.app/
+
+
 
