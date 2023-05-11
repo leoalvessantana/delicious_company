@@ -107,7 +107,7 @@ O conjunto de dados que representam o contexto está disponível na plataforma d
 Kaggle. O link para acesso aos dados :
 https://www.kaggle.com/datasets/akashram/zomato-restaurants-autoupdated-dataset?resource=download&select=zomato.csv
 
-Antes de partimos para a estratégia de solução é importante ter conhecimento das [premissias](https://github.com/leoalvessantana/delicious_company/blob/main/dataset/informacoes_dados.txt) do negócio.
+O arquivo [informacoes_dados](https://github.com/leoalvessantana/delicious_company/blob/main/dataset/informacoes_dados.txt) contém algumas premissas que utilizamos nesse projeto.
 
 
 ## 4. Estratégia da solução e resultados
