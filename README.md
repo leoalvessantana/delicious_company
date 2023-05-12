@@ -117,7 +117,7 @@ Primeiro respondemos as perguntas feitas pelo CEO utilizamos os dados que a empr
 Em seguida, para construir o dashboard, construimos um painel estratégico que foi desenvolvido utilizando as métricas que refletem as principais visões do modelo de negócio da empresa:
 
 Geral:
- - Alguns Números Importantes.
+ - Número de Países, Cidades, Culinárias e Votos registrados.
  - A localização de cada restaurante.
 
 Países:
@@ -141,4 +141,6 @@ Culinaria:
 O produto final do projeto é um Painel online, hospedado em um Cloud e disponível para acesso em qualquer dispositivo conectado à internet. O painel pode ser acessado através desse link: https://leonardosantana-delicious-company.streamlit.app/
 
 
+## 5. Próximo passos
+Adicionar novas visões de negócio.
 

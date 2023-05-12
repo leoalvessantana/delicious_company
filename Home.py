@@ -7,7 +7,6 @@ st.set_page_config(layout='wide', page_title="Home", page_icon="🎲")
 
 
 # sidebar
-#image_path = 'C:/Users/leona/Documents/repos/FTC/projeto_final/logo_Delicious.png'
 image = Image.open('logo_Delicious.png')
 st.sidebar.image(image, width=150)
 
